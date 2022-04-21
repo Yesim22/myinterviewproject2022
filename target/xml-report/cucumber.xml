@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="65.534">
+<testcase classname="Unknown" name="Positive Test" time="37.252">
+<system-out><![CDATA[Given User is on home page..................................................passed
+Given user clicks girisYapButton............................................passed
+Given user provides email id "testingylmz@yopmail.com"......................passed
+And user provides password id "Meryem123*-".................................passed
+And user clicks passwordGirisYapButton......................................passed
+And user verifies hesabimText...............................................passed
+Then user clicks cikisYapButton.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unknown" name="Negative Test" time="19.751">
+<system-out><![CDATA[Given User is on home page..................................................passed
+Given user clicks girisYapButton............................................passed
+Given user provides email id "testingylmz@yopmail.com"......................passed
+And user provides password id "Meryem123*"..................................passed
+And user clicks passwordGirisYapButton......................................passed
+Then user receives error message............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unknown" name="Positive Test" time="4.204">
+<system-out><![CDATA[Given User on home page.....................................................passed
+Given user provides item "elbise"...........................................passed
+And user returns the search result..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Unknown" name="Negative Test" time="3.732">
+<system-out><![CDATA[Given User on home page.....................................................passed
+Given user provides item "<<srlawefbvkdgmsegv"..............................passed
+Then user receive error message.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
