@@ -15,6 +15,7 @@ Feature:
     Examples:
       |     email             |password   |
       |testingylmz@yopmail.com|Meryem123*-|
+
   @LoginLogoutTest
   Scenario Outline: Negative Test
     Given user clicks girisYapButton
